@@ -13,4 +13,4 @@ jobs:
         password: ${{ secrets.DOCKER_PASSWORD }}
         dockerfile: docker/Dockerfile.cpu
         tags: "cpu"
-        buildargs: "TENSORFLOW_VER='tensorflow==1.11.0"
+        buildargs: "TENSORFLOW_VER=tensorflow==1.11.0"
